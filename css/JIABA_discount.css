@@ -119,8 +119,8 @@ h2{
 
 
 .discount{
-    width: 100%;
     max-width: 1200px;
+    width: 100%;
     margin: auto;
     background-color: rgb(250, 250, 241); 
     padding: 100px 0;
@@ -142,6 +142,7 @@ h2{
 .discount_item{
     width: 90%;
     display: flex;
+    flex-wrap: wrap;
     background-color:rgba(248, 170, 149, 0.15);
     border-radius: 3px;
     margin: auto;

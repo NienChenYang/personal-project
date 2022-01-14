@@ -23,6 +23,8 @@
 
 }
 
+
+
 header{
     position: sticky;
     top: 0;
@@ -44,8 +46,6 @@ nav{
    
 }
 
-
-
 nav .logo{
     width: 60px;
     padding-top: 9.25%;
@@ -62,16 +62,17 @@ nav .search{
 nav .sp_search img{
     width: 18px;
     
-    
 }
 
 nav .login{
     display: none;
+
 }
 
 nav .sp_icon{
     display: flex;
     margin-right: 3%;
+
 }
 
 nav .sp_login{
@@ -83,6 +84,8 @@ nav .sp_login img{
     width:20px;
    
 }
+
+
 
 #hamburger_btn{
     width: 5%;
@@ -103,9 +106,9 @@ nav .sp_login img{
     
 }
 
+
+
 .path{
-    /* position: sticky;
-    top: 0; */
     position: fixed;
     width: 100px;
     line-height: 30px;
@@ -119,16 +122,9 @@ nav .sp_login img{
 }
 
 .path ul{
-    /* z-index: 2; */
     background-color: #fff;
     
-
 } 
-
-.path ul li a {
-    /* color:#4281ce; */
-    text-decoration: none;
-}
 
 .path a{
     text-decoration: none;
@@ -136,18 +132,18 @@ nav .sp_login img{
     font-weight: bold;
     padding: 9px;
    
-   
 }
-/* ************************** */
+
 .path a.onclick  {
-    /* background-color: #134e6c; */
     color: #ff8563;
+
 }
 
 .path li{
     color: #134e6c;
     font-weight: bold; 
     position: relative;
+
 }
 
 .path .list:after{
@@ -161,7 +157,10 @@ nav .sp_login img{
     
 }
 
+.path ul li a {
+    text-decoration: none;
 
+}
 
 
 
@@ -204,27 +203,24 @@ footer .copyright{
 
 
 
-
 @media screen and (min-width:768px){
-.container{
-    background-color: rgb(250, 250, 241);
-    margin: auto;
-   
-}
 
 .container h2{
     font-size: 20px;
+
 }
 
 .container h3{
     font-size: 18px;
-    font-weight: bold;
    
 }
 
 .container h4{
     font-size: 16px;
+
 }
+
+
 
 nav .logo{
     width: 80px;
@@ -235,78 +231,47 @@ nav .sp_icon img{
     width:25px;
    
 }
-#hamburger_btn img{
-   width: 20px;
-    
-}
+
+
 
 .path{
     top: 65px;
+
 }
+
+
     
-footer .link img{
-    width: 20px;
-    margin:20px 10px 0 0;
-
-}
-
 footer .copyright{
-    width: 100%;
-    background-color:  #1b1464;
-    text-align: center;
-    font-size: 12px;
     line-height: 18px;
-    padding: 15px 0 20px 0;
-    
+    padding: 15px 0 20px 0; 
    
 }
 
 }
 
+
+
+
 @media screen and (min-width:1200px){
-
-.container{
-    background-color: rgb(250, 250, 241);
-    margin: auto;
-
-}
-
 .container h2{
     font-size: 24px;
+
 }
 
 .container h3{
     font-size: 20px;
-    font-weight: bold;
-   
+    
 }
 
 .container h4{
     font-size: 18px;
-    color: #396fb0;
-    font-weight: bold;
 
 }
     
-    
-    
-header{
-    z-index: 5;
-    width: 100%;
-    position: sticky;
-    top: 0;
-
-}
-
 
 
 nav{
-    background-color: #1b1464;
-    color: #fff;
     height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     left: 0;
     right: 0;
     
@@ -321,7 +286,6 @@ nav .logo{
 nav .search{
     display: flex;
     position: relative;
-
 
 }
 
@@ -362,6 +326,7 @@ nav .search_btn img{
 
 nav input:focus {
     outline: none;
+
 }
 
 nav .login{
@@ -389,11 +354,17 @@ nav .login_register{
 }
 nav .sp_icon{
     display: none;
+
 }
+
+
 
 #hamburger_btn{
     display: none;
+
 }
+
+
 
 .path{
     width: 100%;
@@ -407,6 +378,7 @@ nav .sp_icon{
     top: 0;
     left: 0;
     position: initial;
+
 }
 
 .path ul{
@@ -415,18 +387,13 @@ nav .sp_icon{
     z-index: 2;
     top: 100%;
     min-width: 150px;
-    background-color: #fff;
     border-radius: 3px;
     display: none;
 
-    
 } 
 
 .path a{
-    text-decoration: none;
     margin:0px 10px;
-    color: #134e6c; 
-    font-weight: bold;
     position: relative;
    
 }
@@ -434,24 +401,16 @@ nav .sp_icon{
 .path li{
     padding-bottom: 5px ;
     padding-top: 5px;
-    color: #134e6c;
-    font-weight: bold; 
-    position: relative;
-    /* background-color: #134e6c; */
     
 }
 
 .path li a:hover {
-   /* color:#4281ce; */
    color: #ff8563;
 
 }
 
 .path .list:after{
     content: '';
-    border-right: 5px  solid transparent;
-    border-left: 5px solid transparent ;
-    border-top: 5px solid #134e6c;
     position: absolute;
     top: 15px;
     left: 70px;
@@ -461,6 +420,7 @@ nav .sp_icon{
 .list:hover{
     color:#ff8563;
     font-weight: bold; 
+
 }
 
 .path li:hover ul { 
@@ -470,7 +430,6 @@ nav .sp_icon{
 
 .path ul li a {
     font-size: 14px;
-    /* color:#134e6c; */
     
 }
 
@@ -481,45 +440,10 @@ nav .sp_icon{
 
 
 
-/* footer{
-    width: 100%;
-    background-color: #1b1464;
-    text-align: center;
-
-}
-
-footer p{
-    color: #fff;
-
-} */
-
-
 footer .link img{
     width: 30px;
-    /* margin:20px 10px 0 0; */
 
 }
-
-/* footer .link a{
-    text-decoration: none;
-
-}
-
-footer .link img:hover{
-    transform: scale(1.1,1.1) ;
-}
-
-
-
-footer .copyright{
-    width: 100%;
-    background-color:  #1b1464;
-    text-align: center;
-    font-size: 14px;
-    padding: 20px 0 30px 0;
-    line-height: 20px;
-   
-} */
 
 }
 
