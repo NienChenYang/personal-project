@@ -3,9 +3,10 @@
     color: #ff8563;
 }
 
-.tag_bg a{
+a.tag_bg{
     color: #ff8563;
 }
+
 
 .tag_bg .list:after{
     /* content: '';
@@ -43,7 +44,7 @@ h2{
 }
 
 .new_active .advertise{
-    width: 300px;
+    width: 90%;
     margin:auto;
     position: relative;
 }
@@ -51,6 +52,7 @@ h2{
 .sp_new_active_pic{
     margin: auto;
     display:block;
+    width: 100%;
 
 }
 
@@ -204,6 +206,18 @@ h2{
         margin: 30px;
         /* margin-top: 20px; */
         
+    }
+
+    .new_active .advertise{
+        width: 300px;
+        margin:auto;
+        position: relative;
+    }
+    
+    .sp_new_active_pic{
+        margin: auto;
+        display:block;
+    
     }
 
      .discount{
