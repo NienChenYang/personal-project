@@ -246,7 +246,9 @@ h2{
         width: 45%;
         /* display: flex; */
         /* justify-content:space-around; */
-        margin: auto;
+       
+       
+
         
     }
 
@@ -301,7 +303,13 @@ h2{
     
     .discount a{
         text-decoration: none;
-    
+        margin: auto;
+        /* background-color: #134e6c; */
+        
+    }
+
+    .discount a:nth-child(odd){
+        margin-left: 3%;
     }
 
 }
@@ -374,7 +382,7 @@ h2{
         opacity: 1;
     }
 
-    .disount{
+    .discount{
         /* width: 1200px;
         margin: auto;
         background-color: rgb(250, 250, 241);  */
@@ -382,6 +390,8 @@ h2{
         /* display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly; */
+        
+        
     }
     
     .discount h2{
@@ -399,20 +409,22 @@ h2{
         width: 100%;
         display: flex;
         background-color:rgba(248, 170, 149, 0.15);
-        margin-bottom: 20px;
         border-radius: 3px;
-        /* margin-left: 20px; */
+        margin-bottom: 20px;
         box-shadow: 1px 2px 3px #aaa;
+    
+        
     
     }
     
-    .discount_item:hover{
+    .discount a:hover{
         transform: scale(1.02,1.02);
     
     }
     
-    .discount_item:nth-child(odd){
-        margin-right: 20px;
+    
+    .discount a:nth-child(odd){
+        /* margin-right: 20px; */
     }
     
     .discount_item img{
@@ -445,6 +457,12 @@ h2{
     
     .discount a{
         text-decoration: none;
-    
+        margin: auto;
+        /* background-color: #134e6c; */
+        
+    }
+
+    .discount a:nth-child(odd){
+        margin-left: 30px;
     }
 }
