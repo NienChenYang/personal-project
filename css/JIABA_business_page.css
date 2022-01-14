@@ -1,0 +1,263 @@
+h2{
+    color: #134e6c;
+    line-height: 40px;
+}
+
+hr{
+    margin: 20px 0;
+    margin-left: 50px;
+    width: 90%;
+    border-top: 1px dashed #ab917f ;
+}
+
+.business{
+    max-width: 1200px;
+    width: 100%;
+    /* margin: auto; */
+    background-color: rgb(250, 250, 241); 
+    /* padding: 40px; */
+    padding-bottom: 100px;
+}
+
+.information{
+    /* display: flex;
+    flex-wrap: wrap;
+    margin-left: 119px;
+    margin-bottom: 100px; */
+    margin: auto;
+    width: 80%;
+}
+
+.business_pic{
+    width:100%;
+    border-radius: 3px;
+
+}
+
+.business_txt{
+    width: 100%;
+    margin-top: 20px;
+    line-height: 30px;
+    /* padding-top: 80px; */
+    color: #696565;
+    background-color:rgba(248, 170, 149, 0.15);
+    border-radius: 3px;
+    border: 1px dashed #ab917f;
+
+}
+
+.txt_box{
+    margin: 20px;
+}
+
+.score_wrap{
+    display: flex;
+    flex-wrap: wrap;
+   margin-bottom: 10px;
+}
+
+.score_wrap p{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #ff8563;
+}
+
+.target{
+    width: 14px;
+}
+
+.discount, .service, .introduce{
+    /* margin-left: 119px; */
+    padding: 30px 0;
+    width: 80%;
+    margin: auto;
+}
+
+.discount h2, .service h2, .introduce h2{
+    /* padding-left: 20px; */
+}
+
+.discount p, .service p, .introduce p{
+    color: #696565;
+    line-height: 30px;
+    background-color:rgba(248, 170, 149, 0.15);
+    padding: 20px;
+    width: 90%;
+}
+
+@media screen and (min-width:768px){
+    
+    h2{
+        color: #134e6c;
+        line-height: 40px;
+    }
+    
+    hr{
+        margin: 20px 0;
+        margin-left: 50px;
+        width: 90%;
+        border-top: 1px dashed #ab917f ;
+    }
+    
+    .business{
+        /* width: 1200px;
+        margin: auto;
+        background-color: rgb(250, 250, 241); 
+        padding: 40px;
+        padding-bottom: 100px; */
+       
+
+    }
+    
+    .information{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* margin-left: 119px; */
+        margin-bottom: 100px;
+        width: 100%;
+       
+
+        
+    }
+    
+    .business_pic{
+        width:40%;
+        border-radius: 3px;
+        margin-top: 20px;
+    }
+    
+    .business_txt{
+        width: 32.9%;
+        width: 40%;
+        line-height: 30px;
+        margin-left: 20px;
+        /* padding-top: 80px; */
+        /* padding-left: 100px; */
+        color: #696565;
+        background-color:rgba(248, 170, 149, 0.15);
+        border-radius: 3px;
+        border: 1px dashed #ab917f;
+        text-align: center;
+    
+    }
+    
+    .score_wrap{
+        display: flex;
+        flex-wrap: wrap;
+       margin-bottom: 10px;
+       justify-content: center;
+    }
+    
+    .score_wrap p{
+        font-size: 20px;
+        margin-left: 10px;
+        color: #ff8563;
+    }
+    
+    .target{
+        width: 14px;
+    }
+    
+    .discount, .service, .introduce{
+      margin: auto;
+        padding: 30px 0;
+    }
+    
+    .discount h2, .service h2, .introduce h2{
+        padding-left: 20px;
+    }
+    
+    .discount p, .service p, .introduce p{
+        color: #696565;
+        line-height: 30px;
+        background-color:rgba(248, 170, 149, 0.15);
+        padding: 20px;
+        width: 85.333333%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    h2{
+        color: #134e6c;
+        line-height: 40px;
+    }
+    
+    hr{
+        margin: 20px 0;
+        margin-left: 50px;
+        width: 90%;
+        border-top: 1px dashed #ab917f ;
+    }
+    
+    .business{
+        width: 1200px;
+        margin: auto;
+        background-color: rgb(250, 250, 241); 
+        padding: 40px;
+        padding-bottom: 100px;
+    }
+    
+    .information{
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-left: 119px; */
+        margin-bottom: 100px;
+        
+        
+    }
+    
+    .business_pic{
+        width:45%;
+        border-radius: 3px;
+    }
+    
+    .business_txt{
+        width: 32.9%;
+        line-height: 30px;
+        /* margin-left: 20px; */
+        /* padding-top: 80px; */
+        /* padding-left: 100px; */
+        color: #696565;
+        background-color:rgba(248, 170, 149, 0.15);
+        border-radius: 3px;
+        border: 1px dashed #ab917f;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .score_wrap{
+        display: flex;
+        flex-wrap: wrap;
+       margin-bottom: 10px;
+    }
+    
+    .score_wrap p{
+        font-size: 20px;
+        margin-left: 10px;
+        color: #ff8563;
+    }
+    
+    .target{
+        width: 14px;
+    }
+    
+    .discount, .service, .introduce{
+        margin-left: 119px;
+        padding: 30px 0;
+    }
+    
+    .discount h2, .service h2, .introduce h2{
+        padding-left: 20px;
+    }
+    
+    .discount p, .service p, .introduce p{
+        color: #696565;
+        line-height: 30px;
+        background-color:rgba(248, 170, 149, 0.15);
+        padding: 20px;
+        width: 85.333333%;
+    }
+}

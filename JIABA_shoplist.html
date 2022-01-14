@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/JIABA.css">
+    <link rel="stylesheet" href="css/JIABA_shoplist.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <script src="link/jquery-3.6.0.min.js"></script>
+    <script src="js/JIABA.js"></script>
+    <title>JIABA-商家列表</title>
+    <link rel="icon" href="pic/share/logo_icon.ico">
+    <link rel="shortcut icon" href="pic/share/logo_icon.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <button id="hamburger_btn" ><img src="pic/share/sp_hamburger.png"></button>
+            <a class="logo_link" href="JIABA.html"><h1><img class="logo" src="pic/share/Logo.png" alt="呷霸"></h1></a></h1>
+
+            <div class="sp_icon">
+                <a class="sp_search" href="#"><img src="pic/share/sp_search.png" alt=""> </a>
+                <a class="sp_login" href="#"><img src="pic/share/sp_login.png" alt=""> </a>
+            </div>
+
+            <label class="search">
+                <input class="search_food" type="search" placeholder="找美食、店家">
+                <input class="search_place" list="search_place" placeholder="地點">
+                <datalist id="search_place">
+                    <option value="基隆市">
+                    <option value="新北市">
+                    <option value="台北市">
+                    <option value="桃園市">
+                    <option value="苗栗縣">
+                    <option value="新竹市">
+                    <option value="台中市">
+                    <option value="彰化縣">
+                    <option value="南投縣">
+                    <option value="雲林縣">
+                    <option value="嘉義市">
+                    <option value="台南市">
+                    <option value="高雄市">
+                    <option value="屏東縣">
+                    <option value="宜蘭縣">
+                    <option value="花蓮縣">
+                    <option value="台東縣">
+                </datalist>
+                <div class="search_btn"><a><img src="pic/share/search_btn.png" alt="search_btn"></a></div>
+            </label>
+
+
+            <div class="login">
+                <a href="" class="login_register">登入/註冊</a>
+            </div>
+
+        </nav>
+
+
+       
+        <ul class="path hidden" id="menu">
+            <li><a href="JIABA.html#slot_machine">要吃什麼拉霸</a></li>
+
+            <li><a href="JIABA_food_recommend.html">美食推薦</a></li>
+
+            <li><div class="list" id="list">優惠活動</div>
+                <ul>
+                    <li id="sub_menu"><a href="JIABA_discount.html">最新活動</a></li>
+                    <li id="sub_menu"><a href="JIABA_birthday.html">壽星限定</a></li>
+                </ul>
+            </li>
+
+            <li class="tag_bg"><div class="list" id="list">呷霸店家</div>
+                <ul>
+                    <li class="tag_bg"><a href="JIABA_shoplist.html">店家列表</a></li>
+                    <li><a href="JIABA_secret-menu.html">隱藏版美食</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="JIABA.html#member">會員好康須知</a></li>
+        </ul>
+    
+    </header>
+
+    <div class="container">
+
+        <div class="shoplist">
+            <h2>商家列表</h2>
+
+            <input class="place" list="search_place" placeholder="桃園市">
+            <datalist id="place">
+                <option value="基隆市">
+                <option value="新北市">
+                <option value="台北市">
+                <option value="桃園市">
+                <option value="苗栗縣">
+                <option value="新竹市">
+                <option value="台中市">
+                <option value="彰化縣">
+                <option value="南投縣">
+                <option value="雲林縣">
+                <option value="嘉義市">
+                <option value="台南市">
+                <option value="高雄市">
+                <option value="屏東縣">
+                <option value="宜蘭縣">
+                <option value="花蓮縣">
+                <option value="台東縣">
+            </datalist>
+
+            <div class="row">
+                <div class="col-12 col-md-3 shop">
+                    <a  href="JIABS_business-page.html">
+                        <div class="business">
+                            <h3>阿萬水餃</h3>
+                            <p><img class="target" src="pic/share/target.png" alt="">桃園市桃園區<br>
+                               宏昌六街217號</p>
+                            <img class="food_pic" src="pic/shop/slot2_awan_dumpling.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-3 shop">
+                    <a  href="JIABS_business-page.html">
+                        <div class="business">
+                            <h3>阿燁便當</h3>
+                                <p><img class="target" src="pic/share/target.png" alt=""> 桃園市中壢區<br>
+                                   義民路二段63號</p>
+                            <img class="food_pic" src="pic/shop/slot1_aye_lunchbox.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-3 shop">
+                    <a  href="JIABS_business-page.html">
+                        <div class="business">
+                            <h3>嘉義雞肉飯</h3>
+                            <p><img class="target" src="pic/share/target.png" alt="">桃園市中壢區<br>
+                                元化路二段161號</p>
+                            <img class="food_pic" src="pic/shop/slot3_jiayi_chickenrice.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-3 shop">
+                    <a  href="JIABS_business-page.html">
+                        <div class="business">
+                            <h3>李記魯肉飯</h3>
+                            <p><img class="target" src="pic/share/target.png" alt="">桃園市平鎮區<br>大仁路117號</p>
+                            <img class="food_pic" src="pic/shop/rank1_braised pork on rice.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 shop">
+                    <a  href="JIABS_business-page.html">
+                        <div class="business">
+                            <h3>廟前蚵仔麵線</h3>
+                            <p><img class="target" src="pic/share/target.png" alt="">桃園市桃園區<br>民生路22號</p>
+                            <img class="food_pic" src="pic/shop/rank2_oyster vermicelli.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 shop">
+                    <a  href="JIABS_business-page.html">
+                        <div class="business">
+                            <h3>豐林麵食館</h3>
+                            <p><img class="target" src="pic/share/target.png" alt="">桃園市新屋<br>長春街68號</p>
+                            <img class="food_pic" src="pic/shop/rank3_noodles.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 shop">
+                    <a  href="JIABS_business-page.html">
+                        <div class="business">
+                            <h3>和慶牛肉麵</h3>
+                            <p><img class="target" src="pic/share/target.png" alt="">桃園市桃園區<br>吉林路135號</p>
+                            <img class="food_pic" src="pic/shop/discount1_he_qing beef_noodles.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-3 shop">
+                    <a  href="JIABS_business-page.html">
+                        <div class="business">
+                            <h3>冠霖雞肉飯</h3>
+                            <p><img class="target" src="pic/share/target.png" alt="">桃園市桃園區<br>春日路1173號</p>
+                            <img class="food_pic" src="pic/shop/discount2_guan_lin chicken_rice.png" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-3 shop">
+                    <a  href="JIABS_business-page.html">
+                        <div class="business">
+                            <h3>星野日式便當</h3>
+                            <p><img class="target" src="pic/share/target.png" alt="">桃園市大園區<br>高鐵二路108號</p>
+                            <img class="food_pic" src="pic/shop/discount3_hoshino nihon_bentou.jfif" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-3 shop">
+                    <a  href="JIABS_business-page.html">
+                        <div class="business">
+                            <h3>劉媽媽便當</h3>
+                            <p><img class="target" src="pic/share/target.png" alt="">桃園市龜山區<br>興華一街34號</p>
+                            <img class="food_pic" src="pic/shop/new2_liu_mother lunchbox.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-3 shop">
+                    <a  href="JIABS_business-page.html">
+                        <div class="business">
+                            <h3>料多多便當</h3>
+                            <p><img class="target" src="pic/share/target.png" alt="">桃園市楊梅區<br>瑞溪路二段247號</p>
+                            <img class="food_pic" src="pic/shop/column1_liauduoduo.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 shop">
+                    <a  href="JIABS_business-page.html">
+                        <div class="business">
+                            <h3>阿皮廣東粥</h3>
+                            <p><img class="target" src="pic/share/target.png" alt="">桃園市龜山區<br>頂湖路291號</p>
+                            <img class="food_pic" src="pic/shop/column2_api.png" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 shop">
+                    <a  href="JIABS_business-page.html">
+                        <div class="business">
+                            <h3>阿婆筒仔米糕</h3>
+                            <p><img class="target" src="pic/share/target.png" alt="">桃園市八德區<br>忠勇街26巷29號</p>
+                            <img class="food_pic" src="pic/shop/column3_apo.jfif" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 shop">
+                    <a  href="JIABS_business-page.html">
+                        <div class="business">
+                            <h3>QQ肉粽</h3>
+                            <p><img class="target" src="pic/share/target.png" alt="">桃園市蘆竹區<br>五福六路28號</p>
+                            <img class="food_pic" src="pic/shop/column4_QQ.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-3 shop">
+                    <a  href="JIABS_business-page.html">
+                        <div class="business">
+                            <h3>東東滷肉飯</h3>
+                            <p><img class="target" src="pic/share/target.png" alt="">桃園市中壢區<br>月眉路一段116巷26號</p>
+                            <img class="food_pic" src="pic/shop/column5_dondon.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-3 shop">
+                    <a  href="JIABS_business-page.html">
+                        <div class="business">
+                            <h3>北門小籠包</h3>
+                            <p><img class="target" src="pic/share/target.png" alt="">桃園市觀音區<br>新華路二段72巷25號</p>
+                            <img class="food_pic" src="pic/shop/column6_bemen.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-3 shop">
+                    <a  href="JIABS_business-page.html">
+                        <div class="business">
+                            <h3>元寶水餃</h3>
+                            <p><img class="target" src="pic/share/target.png" alt="">桃園市龍潭區<br>龍華路94號</p>
+                            <img class="food_pic" src="pic/shop/column7_yuanbao.jpeg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-3 shop">
+                    <a  href="JIABS_business-page.html">
+                        <div class="business">
+                            <h3>瑞福煎餃</h3>
+                            <p><img class="target" src="pic/share/target.png" alt="">桃園市大溪區<br>石園路91號</p>
+                            <img class="food_pic" src="pic/shop/column8_zuefu.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="link">
+                <a href=""> <img src="pic/share/link1_facebook_icon.png" alt="facebook"> </a>
+                <a href=""> <img src="pic/share/link2_line_icon.png" alt="line"> </a>
+                <a href=""> <img src="pic/share/link3_instagran_icon.png" alt="instagram"> </a>
+        </div>
+    
+        <div class="copyright">
+            <p>此網頁僅供TibaMe專題教學使用</p>
+            <p>&copy;All Rights Reserved</p>
+        </div>
+    <footer>
+</body>
+</html>

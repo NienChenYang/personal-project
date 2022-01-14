@@ -1,0 +1,847 @@
+.container{
+    padding-top: 40px;
+}
+
+.tag_bg{
+    
+    color: #ff8563;
+}
+.tag_bg a{
+    color: #ff8563;
+}
+
+h2{
+    text-align: center;
+    color: #1b1464;
+    font-weight: bold;
+    margin-bottom: 30px;
+    display: block;
+    
+}
+
+h3{
+    font-size: 20px;
+    color: #1b1464;
+    text-align: center;
+    margin-top:20px;
+    font-weight: bold;
+    
+}
+
+hr{
+    border: none;
+    width: 80%;
+    margin-bottom: 40px;
+    height: 1px;
+    background: #7a74b9;
+    animation: width .5s linear;
+  }
+
+  
+  @keyframes width {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 80%;
+    }
+  }
+
+
+.week_popular{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgb(250, 250, 241); 
+    /* padding: 80px 0 150px 0; */
+    
+}
+
+.week_popular p{
+    line-height: 30px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 10px 0 10px;
+    
+}
+
+/* .week_popular .rank_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    
+} */
+
+.week_popular .rank_item{
+    background-color: #fff;
+    /* margin: 5px; */
+    box-shadow: 1px 2px 3px #aaa;
+    border-radius: 5px;
+
+ }
+
+
+.week_popular .rank_wrap a{
+    color:#696565;
+    text-decoration: none;
+
+}
+
+.week_popular .rank{
+    /* width: 50px; */
+
+}
+
+.week_popular .rank_box{
+    /* margin-left: 100px; */
+    /* width: 33.333333%; */
+    width: 90%;
+    margin: auto;
+   
+}
+
+.week_popular .rank_box .rank_item{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: 0;
+
+}
+
+.week_popular .rank_box .introduce{
+    /* margin-left: -12%; */
+    
+    
+
+}
+
+    
+.week_popular .rank_box .food_pic{
+    width: 50%;
+    border-radius: 5px 0 0 5px;
+
+}
+
+.week_popular .rank_box h3{
+    /* margin-top: -47px; */
+
+}
+
+.week_popular .txt{
+    margin: 15px 20px 0px 20px;
+    color: #696565;
+    line-height: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+    
+}
+
+.week_popular .rank_box{
+    position: relative;
+}
+    
+.week_popular .rank_box .rank{
+    position:absolute;
+    left: 5px;
+    width: 53px;
+    height: 70px;
+    /* bottom: 265px;
+    left: 10px; */
+
+}
+
+.week_popular .rank_box .score_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #ff8563;
+
+}
+
+.week_popular .rank_box .more{
+    /* margin-left: 320px;
+    margin-top: -20px; */
+    display: block;
+    text-align: end;
+    margin-right: 20px;
+    padding-bottom: 5px;
+    /* padding-bottom: 14px; */
+   
+ }
+
+
+.week_popular .rank_box_right{
+    /* margin-left: 0; */
+    /* margin-right: 100px; */
+    width: 100%;
+    
+}
+
+.week_popular .rank_box_right .rank_item{
+    width: 90%;
+    display: flex;
+    margin: 20px auto;
+    position: relative;
+    /* height: 200px; */
+    
+}
+
+.week_popular .rank_box_right .rank_item:nth-child(1){
+    /* margin-bottom: 30px;
+    margin-top: 5px; */
+}
+
+.week_popular .rank_box_right .introduce{
+    width: 50%;
+    /* padding: 0 20px; */
+    /* margin-left: -10%; */
+    margin-left: 0;
+}
+
+.week_popular .rank_box_right .food_pic{
+    width: 50%;
+    border-radius: 5px 0 0 5px;
+    
+}
+
+
+
+.week_popular .rank_box_right .rank{
+    width: 53px;
+    height: 70px;
+    position: absolute;
+    left: 5px;
+}
+
+.week_popular .rank_box_right .score_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #ff8563;
+    
+}
+
+.week_popular .rank_box_right .more{
+    /* margin-top: -15px; */
+    display: block;
+    text-align: end;
+    margin-right: 20px;
+    padding-bottom: 5px;
+     
+  }
+
+.column{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(250, 250, 241); 
+}
+
+
+
+.food_column{
+    
+    margin: auto;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    
+}
+
+.column_wrap{
+    /* width: 27%; */
+    width: 80%;
+    margin: 10px 10px;
+    margin: auto;
+    
+}
+
+.column_wrap a{
+    text-decoration: none;
+    width: 320px;
+    margin: 10px;
+
+}
+
+.column_item{
+    width:100%;
+    background-color: #fff;
+    box-shadow: 1px 2px 3px #aaa; 
+    border-radius: 5px;
+
+}
+.column_item img{
+    width: 100%;
+    border-radius: 5px 5px 0 0 ;
+    
+}
+
+.column_item p{
+    margin: 20px 30px 10px 30px;
+    color: #696565;
+    line-height: 30px;
+    padding: 0 5px 20px 5px;
+}
+
+
+
+.column{
+    padding-bottom: 100px;
+}
+
+
+@media screen and (min-width:768px){
+    h2{
+        text-align: center;
+        color: #1b1464;
+        font-weight: bold;
+        margin-bottom: 30px;
+        display: block;
+        
+    }
+    
+    h3{
+        font-size: 20px;
+        color: #1b1464;
+        text-align: center;
+        margin-top:20px;
+        font-weight: bold;
+        
+    }
+    
+    hr{
+        border: none;
+        width: 80%;
+        margin-bottom: 40px;
+        height: 1px;
+        background: #7a74b9;
+        animation: width .5s linear;
+      }
+    
+      
+      @keyframes width {
+        from {
+          width: 0%;
+        }
+        to {
+          width: 80%;
+        }
+      }
+    
+    
+    .week_popular{
+        max-width: 1200px;
+        width: 100%;
+        margin: auto;
+        background-color: rgb(250, 250, 241); 
+        /* padding: 80px 0 150px 0; */
+        
+    }
+    
+    .week_popular p{
+        line-height: 30px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        text-align: center;
+        margin: 10px 10px 0 10px;
+        
+    }
+    
+    .week_popular .rank_wrap{
+        
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        
+        margin: auto;
+        
+        
+    }
+   
+    
+    .week_popular .rank_item{
+        background-color: #fff;
+        /* margin: 5px; */
+        box-shadow: 1px 2px 3px #aaa;
+        border-radius: 5px;
+        
+    
+     }
+    
+    
+    .week_popular .rank_wrap a{
+        color:#696565;
+        text-decoration: none;
+    
+    }
+    
+    .week_popular .rank{
+        width: 50px;
+    
+    }
+    
+    .week_popular .rank_box{
+        /* margin-left: 100px; */
+        width: 40%;
+        margin: 0;
+        /* position: relative; */
+       
+    }
+
+    .week_popular .rank_box .rank_item{
+     display: block;
+     /* margin: auto; */
+     margin:0;
+    }
+        
+    .week_popular .rank_box .food_pic{
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+    
+    }
+    
+    .week_popular .rank_box h3{
+        /* margin-top: -47px; */
+    
+    }
+    
+    .week_popular .rank_box .txt{
+        margin: 15px 20px 0px 20px;
+        color: #696565;
+        line-height: 30px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        text-align: center;
+    
+    }
+    
+    .week_popular .rank_box .rank{
+        position: absolute;
+        /* top: -185px;
+        left: 10px; */
+    
+    }
+    
+    .week_popular .rank_box .score_wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        color: #ff8563;
+    
+    }
+    
+    .week_popular .rank_box .more{
+        /* margin-left: 320px;
+        margin-top: -20px; */
+        display: block;
+        padding-bottom: 14px;
+       
+     }
+    
+    
+    .week_popular .rank_box_right{
+        margin-left: 20px;
+        width: 57%;
+    
+        
+    }
+    
+    .week_popular .rank_box_right .rank_item{
+        width: 100%;
+        /* display: flex; */
+        
+        /* margin: 0px 1px 25px 27px; */
+        
+    }
+    
+    .week_popular .rank_box_right .second{
+        margin-bottom: 20px;
+        /* margin-top: 5px; */
+        margin-top: 0;
+    }
+    
+    .week_popular .rank_box_right .introduce{
+       
+        width: 100%;
+        padding: 0 20px;
+    
+    }
+    
+    .week_popular .rank_box_right .food_pic{
+        width: 50%;
+        border-radius: 5px 0 0 5px;
+        
+    }
+    
+    .week_popular .rank_box_right .rank{
+        width: 53px;
+        height: 70px;
+        position: absolute;
+       
+    }
+    
+    .week_popular .rank_box_right .score_wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        color: #ff8563;
+        
+    }
+    
+    .week_popular .rank_box_right .more{
+        /* margin-top: -15px; */
+        display: block;
+        text-align: end;
+         
+      }
+    
+    .column{
+        margin: auto;
+        background-color: rgb(250, 250, 241); 
+    }
+    
+    
+    
+    .food_column{
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    
+    .column_wrap{
+        width: 27%;
+        margin: 10px 10px;
+        margin: auto;
+        margin-top: 0;
+        
+    }
+    
+    .column_wrap a{
+        text-decoration: none;
+        width: 320px;
+        margin: 10px;
+    
+    }
+    
+    .column_item{
+        width:100%;
+        background-color: #fff;
+        box-shadow: 1px 2px 3px #aaa; 
+        border-radius: 5px;
+    
+    }
+    
+    .column_item img{
+        width: 100%;
+        border-radius: 5px 5px 0 0 ;
+        
+    }
+    
+    .column_item p{
+        margin: 20px 30px 10px 30px;
+        color: #696565;
+        line-height: 30px;
+        padding: 0 5px 20px 5px;
+    }
+    
+    
+    
+    .column{
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (min-width:1200px){
+    h2{
+        text-align: center;
+        color: #1b1464;
+        font-weight: bold;
+        margin-bottom: 30px;
+        display: block;
+        
+    }
+    
+    h3{
+        font-size: 20px;
+        color: #1b1464;
+        text-align: center;
+        margin-top:20px;
+        font-weight: bold;
+        
+    }
+    
+    hr{
+        border: none;
+        width: 80%;
+        margin-bottom: 40px;
+        height: 1px;
+        background: #7a74b9;
+        animation: width .5s linear;
+      }
+    
+      
+      @keyframes width {
+        from {
+          width: 0%;
+        }
+        to {
+          width: 80%;
+        }
+      }
+    
+    
+    .week_popular{
+        width: 1200px;
+        margin: auto;
+        background-color: rgb(250, 250, 241); 
+        padding: 80px 0 150px 0;
+        
+    }
+    
+    .week_popular p{
+        line-height: 30px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        text-align: center;
+        margin: 10px 10px 0 10px;
+        
+    }
+    
+    .week_popular .rank_wrap{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        /* margin: auto; */
+
+
+        
+    }
+    
+    .week_popular .rank_item{
+        background-color: #fff;
+        /* margin: 5px; */
+        box-shadow: 1px 2px 3px #aaa;
+        border-radius: 5px;
+    
+     }
+    
+     .week_popular .rank_item:hover{
+         transform: scale(1.02,1.02);
+    
+    }
+    
+    .week_popular .rank_wrap a{
+        color:#696565;
+        text-decoration: none;
+    
+    }
+    
+    .week_popular .rank{
+        width: 50px;
+    
+    }
+    
+    .week_popular .rank_box{
+        /* margin-left: 100px; */
+        width: 30%;
+       
+    }
+        
+    .week_popular .rank_box .food_pic{
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+    
+    }
+    
+    .week_popular .rank_box h3{
+        /* margin-top: -47px; */
+    
+    }
+    
+    .week_popular .rank_box .txt{
+        margin: 15px 20px 0px 20px;
+        color: #696565;
+        line-height: 30px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        text-align: center;
+        font-size: 14px;
+        padding-bottom: 5px;
+    
+    }
+    
+    /* .week_popular .rank_box .rank{
+        position: relative;
+        bottom: 265px;
+        left: 10px;
+    
+    } */
+    
+    .week_popular .rank_box .score_wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        color: #ff8563;
+    
+    }
+    
+    .week_popular .rank_box .more{
+        /* text-align: end;
+        /* margin-top: -20px; */
+        
+       
+       
+     }
+    
+    
+    .week_popular .rank_box_right{
+        /* margin-left: 20px; */
+        /* margin-right: 100px; */
+        /* width: 50%; */
+        width: 50%;
+        
+    }
+    
+    .week_popular .rank_box_right .rank_item{
+        display: flex;
+        margin-right: 0;
+        width:100%;
+        /* margin: 0px 1px 25px 27px; */
+        /* height: 200px; */
+        
+    }
+    
+    /* .week_popular .rank_box_right .rank_item:nth-child(1){
+        margin-bottom: 30px;
+        margin-top: 5px;
+    } */
+    
+    .week_popular .rank_box_right .introduce{
+        /* margin-left: -55px; */
+        width: 100%;
+        padding: 0 20px;
+       
+    }
+    
+    .week_popular .rank_box_right .txt{
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .week_popular .rank_box_right .food_pic{
+        width: 290px;
+        border-radius: 5px 0 0 5px;
+        
+    }
+    
+    .week_popular .rank_box_right .rank{
+        /* width: 53px;
+        height: 70px;
+        position: relative;
+        bottom: 0px;
+        left: -275px; */
+    }
+    
+    .week_popular .rank_box_right .score_wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        color: #ff8563;
+        
+    }
+    
+    .week_popular .rank_box_right .more{
+        /* margin-top: -15px; */
+        display: block;
+        text-align: end;
+         
+      }
+    
+    .column{
+        width: 1200px;
+        margin: auto;
+        background-color: rgb(250, 250, 241); 
+    }
+    
+    
+    
+    .food_column{
+        width: 1200px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    
+    .column_wrap{
+        width: 27%;
+        margin: 10px 10px;
+        
+    }
+    
+    .column_wrap a{
+        text-decoration: none;
+        width: 320px;
+        margin: 10px;
+    
+    }
+    
+    .column_item{
+        width:100%;
+        background-color: #fff;
+        box-shadow: 1px 2px 3px #aaa; 
+        border-radius: 5px;
+    
+    }
+    
+    .column_item:hover{
+        transform: scale(1.02,1.02);
+    }
+    
+    .column_item img{
+        width: 100%;
+        border-radius: 5px 5px 0 0 ;
+        
+    }
+    
+    .column_item p{
+        margin: 20px 30px 10px 30px;
+        color: #696565;
+        line-height: 30px;
+        padding: 0 5px 20px 5px;
+    }
+    
+    
+    
+    .column{
+        padding-bottom: 100px;
+    }
+    
+}

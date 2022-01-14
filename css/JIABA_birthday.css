@@ -1,0 +1,380 @@
+.tag_bg .list{
+    color: #ff8563;
+}
+
+.tag_bg a{
+    color: #ff8563;
+}
+
+.tag_bg .list:after{
+    /* content: '';
+    border-right: 5px  solid transparent;
+    border-left: 5px solid transparent ; */
+    border-top: 5px solid #ff8563;
+    /* position: absolute;
+    top: 15px;
+    left: 70px; */
+    
+}
+
+.birthday{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(250, 250, 241);
+}
+
+h2{
+    background-color: #ab917f;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    /* position: absolute;
+    right: 50px;
+    top: -50px; */
+    margin-bottom: 30px;
+    border-radius: 3px;
+    box-shadow: 1px 2px 3px #aaa;
+
+}
+
+h3{
+    color: #1b1464;
+    padding-top: 20px;
+    
+}
+
+.food_txt{
+    /* text-indent: -20px; */
+    font-size: 12px;
+    color: #696565;
+    line-height: 20px;
+}
+.food_pic{
+    width: 50%;
+}
+
+a{
+    text-decoration: none;
+}
+
+span{
+    font-weight: bold;
+    color: #134e6c;
+}
+
+.banner{
+    padding-bottom: 30px;
+}
+
+.banner img{
+    max-width: 1200px;
+    width: 100%;
+}
+
+.discount{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    /* background-image: url(../pic/birthday/line.png); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* margin-top: 100px; */
+    position: relative;
+    padding-bottom: 100px;
+
+}
+
+.discount_item{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px;
+    padding-top: 20px;
+   
+}
+
+.discount_item:nth-child(even){
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.target{
+    width: 10px;
+
+}
+
+@media screen and (min-width:768px){
+    .birthday{
+        max-width: 1200px;
+        width: 100%;
+        margin: auto;
+        background-color: rgb(250, 250, 241);
+    }
+    
+    h2{
+        background-color: #ab917f;
+        color: #fff;
+        padding: 20px;
+        display: inline-block;
+        position: absolute;
+        right: 150px;
+        top: -30px;
+        border-radius: 3px;
+        box-shadow: 1px 2px 3px #aaa;
+    
+    }
+    
+    h3{
+        color: #1b1464;
+        padding: 10px 10px 10px 0;
+        
+    }
+    
+    .food_txt{
+        text-indent: -20px;
+        font-size: 13px;
+        color: #696565;
+        line-height: 30px;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    span{
+        font-weight: bold;
+        color: #134e6c;
+    }
+    
+    .banner img{
+        max-width: 1200px;
+        width: 100%;
+    }
+    
+    .discount{
+        width: 768px;
+       
+        margin: auto;
+        background-image: url(../pic/birthday/line.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 100px;
+        position: relative;
+        padding-bottom: 100px;
+    
+    }
+    
+    .discount_item{
+        display: flex;
+        margin: 0 auto;
+       
+    }
+    .food_pic{
+        width: 250px;
+    }
+    
+    
+    .birthday1 .food_txt{
+        margin-left: -20px;
+       
+    }
+    
+    .birthday2{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    .birthday2 .food_pic{
+        margin-right: 150px;
+        margin-top: -20px;
+
+    
+    }
+    
+    .birthday2 .food_txt{
+        margin-top: -10px;
+        margin-right: 100px;
+    }
+    
+    .birthday3 .food_pic{
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    
+    .birthday3 .food_txt{
+        margin-left: 100px;
+    }
+    
+    .birthday4{
+        display: flex;
+        flex-direction: row-reverse;
+    
+    }
+    
+    .birthday4 .food_pic{
+        margin-bottom: 0px;
+        margin-right: 150px;
+        
+    }
+    
+    .birthday4 .food_txt{
+        margin-top: 50px;
+        margin-right: 80px;
+    }
+    
+    .birthday5 .food_pic{
+        margin-top: 60px;
+        margin-left: 100px;
+    }
+    
+    .birthday5 .food_txt{
+        margin-top: 0px;
+        margin-left: 80px;
+    }
+    
+    .target{
+        width: 16px;
+    
+    }
+}
+
+@media screen and (min-width:1200px){
+    .birthday{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(250, 250, 241);
+}
+
+h2{
+    background-color: #ab917f;
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 350px;
+    top: -30px;
+    border-radius: 3px;
+    box-shadow: 1px 2px 3px #aaa;
+
+}
+
+h3{
+    color: #1b1464;
+    padding: 10px 10px 10px 0;
+    
+}
+
+.food_txt{
+    text-indent: -20px;
+    font-size: 16px;
+    color: #696565;
+    line-height: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+span{
+    font-weight: bold;
+    color: #134e6c;
+}
+
+.banner img{
+    max-width: 1200px;
+    width: 100%;
+}
+
+.discount{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    background-image: url(../pic/birthday/line.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 100px;
+    position: relative;
+    padding-bottom: 100px;
+
+}
+
+.discount_item{
+    display: flex;
+   
+}
+
+.birthday1 .food_pic{
+    width: 350px;
+    
+}
+
+.birthday1 .food_txt{
+    margin-top: 70px;
+    margin-left: -20px;
+   
+}
+
+.birthday2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.birthday2 .food_pic{
+    width: 500px;
+    margin-right: 100px;
+    margin-bottom: 50px;    
+
+}
+
+.birthday2 .food_txt{
+    /* margin-top: 120px; */
+    margin-right: 250px;
+}
+
+.birthday3 .food_pic{
+    width: 400px;
+    margin-top: -40px;
+    margin-left: 50px;
+}
+
+.birthday3 .food_txt{
+    /* margin-top: 85px; */
+    margin-left: 150px;
+}
+
+.birthday4{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.birthday4 .food_pic{
+    width: 400px;
+    margin-top: 30px;
+    margin-right: 150px;
+    
+}
+
+.birthday4 .food_txt{
+    margin-top: 100px;
+    margin-right: 200px;
+}
+
+.birthday5 .food_pic{
+    width: 500px;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.birthday5 .food_txt{
+    margin-top: -50px;
+    margin-left: 200px;
+}
+
+.target{
+    width: 16px;
+
+}
+}

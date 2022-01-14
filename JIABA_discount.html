@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/JIABA.css">
+        <link rel="stylesheet" href="css/JIABA_discount.css">
+        <script src="link/jquery-3.6.0.min.js"></script>
+        <script src="js/JIABA.js"></script>
+        <title>JIABA-優惠活動</title>
+        <link rel="icon" href="pic/share/logo_icon.ico">
+        <link rel="shortcut icon" href="pic/share/logo_icon.ico">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <button id="hamburger_btn" ><img src="pic/share/sp_hamburger.png"></button>
+                <a class="logo_link" href="JIABA.html"><h1><img class="logo" src="pic/share/Logo.png" alt="呷霸"></h1></a></h1>
+    
+                <div class="sp_icon">
+                    <a class="sp_search" href="#"><img src="pic/share/sp_search.png" alt=""> </a>
+                    <a class="sp_login" href="#"><img src="pic/share/sp_login.png" alt=""> </a>
+                </div>
+    
+                <label class="search">
+                    <input class="search_food" type="search" placeholder="找美食、店家">
+                    <input class="search_place" list="search_place" placeholder="地點">
+                    <datalist id="search_place">
+                        <option value="基隆市">
+                        <option value="新北市">
+                        <option value="台北市">
+                        <option value="桃園市">
+                        <option value="苗栗縣">
+                        <option value="新竹市">
+                        <option value="台中市">
+                        <option value="彰化縣">
+                        <option value="南投縣">
+                        <option value="雲林縣">
+                        <option value="嘉義市">
+                        <option value="台南市">
+                        <option value="高雄市">
+                        <option value="屏東縣">
+                        <option value="宜蘭縣">
+                        <option value="花蓮縣">
+                        <option value="台東縣">
+                    </datalist>
+                    <div class="search_btn"><a><img src="pic/share/search_btn.png" alt="search_btn"></a></div>
+                </label>
+    
+    
+                <div class="login">
+                    <a href="" class="login_register">登入/註冊</a>
+                </div>
+    
+            </nav>
+    
+           
+            <ul class="path hidden" id="menu">
+                <li><a href="JIABA.html#slot_machine">要吃什麼拉霸</a></li>
+    
+                <li><a href="JIABA_food_recommend.html">美食推薦</a></li>
+    
+                <li class="tag_bg"><div class="list" id="list">優惠活動</div>
+                    <ul>
+                        <li class="tag_bg" id="sub_menu"><a href="JIABA_discount.html">最新活動</a></li>
+                        <li id="sub_menu"><a href="JIABA_birthday.html">壽星限定</a></li>
+                    </ul>
+                </li>
+    
+                <li><div class="list" id="list">呷霸店家</div>
+                    <ul>
+                        <li><a href="JIABA_shoplist.html">店家列表</a></li>
+                        <li><a href="JIABA_secret-menu.html">隱藏版美食</a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="JIABA.html#member">會員好康須知</a></li>
+            </ul>
+        
+        </header>
+    
+
+        <div class="container">
+            <div class="new_active">
+                <h2>最新活動</h2>
+                <div class="new_active_item">
+                    <div class="advertise">
+                        <img class="sp_new_active_pic" src="pic/discount/sp_advertise.jpg" alt="">
+                        <img class="new_active_pic" src="pic/discount/advertise.jpg" alt="">
+                        <h3>滷肉飯祭</h3>
+                    </div>
+                
+                    
+                    <div class="shop">
+                        <div class="shop_item">
+                            <a href="JIABS_business-page.html">
+                                <img class="shop_pic" src="pic/discount/braised pork on rice1.jpg" alt="">
+                                <div class="shop_txt">
+                                    <h3>陳家滷肉飯</h3>
+                                    <p><img class="target" src="pic/discount/target_white.png" alt="adress">屏東縣萬丹鄉公園東街13號</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="shop_item">
+                            <a href="JIABS_business-page.html">
+                                <img class="shop_pic" src="pic/discount/braised pork on rice2.png" alt="">
+                                <div class="shop_txt">
+                                    <h3>旺仔滷肉飯</h3>
+                                    <p><img class="target" src="pic/discount/target_white.png" alt="adress">新竹縣峨眉鄉忠義街25號</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="shop_item">
+                            <a href="JIABS_business-page.html">
+                                <img class="shop_pic" src="pic/discount/braised pork on rice3.jpg" alt="">
+                                <div class="shop_txt">
+                                    <h3>阿香滷肉飯</h3>
+                                    <p><img class="target" src="pic/discount/target_white.png" alt="adress">高雄市左營區榮佑路35號</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="shop_item">
+                            <a href="JIABS_business-page.html">
+                                <img class="shop_pic" src="pic/discount/braised pork on rice4.jpg" alt="">
+                                <div class="shop_txt">
+                                    <h3>源源滷肉飯</h3>
+                                    <p><img class="target" src="pic/discount/target_white.png" alt="adress">臺中市北屯區舊街15號</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="shop_item">
+                            <a href="JIABS_business-page.html">
+                                <img class="shop_pic" src="pic/discount/braised pork on rice5.png" alt="">
+                                <div class="shop_txt">
+                                    <h3>佳欣滷肉飯</h3>
+                                    <p><img class="target" src="pic/discount/target_white.png" alt="adress">南投縣竹山鎮前山路33號</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="shop_item">
+                            <a href="JIABS_business-page.html">
+                                <img class="shop_pic" src="pic/discount/braised pork on rice6.jpg" alt="">
+                                <div class="shop_txt">
+                                    <h3>劉記滷肉飯</h3>
+                                    <p><img class="target" src="pic/discount/target_white.png" alt="adress">新竹縣新埔鎮三聖路19號</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            
+            <div class="discount">
+                <a href="JIABS_business-page.html" class="discount_item">
+                    <img src="pic/homepage/discount1_he_qing beef_noodles.jpg" alt="和慶牛肉麵">
+                    <div class="discount_txt">
+                    <h3>【和慶牛肉麵】試營運6折活動</h3>
+                    <p>2022/03/01-03/08<br>
+                        消費不限金額全面六折</p>
+                    </div>
+                </a>
+                <a href="JIABS_business-page.html" class="discount_item">
+                    <img src="pic/homepage/discount2_guan_lin chicken_rice.png" alt="冠霖雞肉飯">
+                    <div class="discount_txt">
+                        <h3>【冠霖雞肉飯】周年慶買大送小</h3>
+                        <p>2022/03/01-03/08<br>
+                            凡購買大碗招牌雞肉飯送小碗雞肉飯</p>
+                    </div>  
+                </a>
+                <a href="JIABS_business-page.html" class="discount_item">
+                    <img src="pic/homepage/discount3_hoshino nihon_bentou.jfif" alt="星野日式便當">
+                    <div class="discount_txt">
+                        <h3>【星野日式便當】壽星限定</h3>
+                        <p>2022/01/01-2022/12/31<br>
+                            壽星送小菜一份</p>
+                    </div>
+                </a>
+                <a href="JIABS_business-page.html" class="discount_item">
+                    <img src="pic/homepage/discount4_he_yuan noodles.jpg" alt="和園麵食">
+                    <div class="discount_txt">
+                        <h3>【和園麵食】挺醫護</h3>
+                        <p>2022/01/01-2023/01/01<br>
+                            醫護人員送小菜一份</p>
+                    </div>
+                </a>
+                <a href="JIABS_business-page.html" class="discount_item">
+                    <img src="pic/discount/discount1_shinshin.png" alt="和慶牛肉麵">
+                    <div class="discount_txt">
+                    <h3>【欣欣越南料理】會員限定</h3>
+                    <p>2022/03/01-03/08<br>
+                        消費不限金額九五折</p>
+                    </div>
+                </a>
+                <a href="JIABS_business-page.html" class="discount_item">
+                    <img src="pic/discount/discount2_a_yi guabao.jpeg" alt="冠霖雞肉飯">
+                    <div class="discount_txt">
+                        <h3>【阿易刈包】周年慶買一送一</h3>
+                        <p>2022/01/01-01/08<br>
+                            刈包買一送一</p>
+                    </div>  
+                </a>
+                <a href="JIABS_business-page.html" class="discount_item">
+                    <img src="pic/discount/discount3_jiayi_chickenrice.jpg" alt="星野日式便當">
+                    <div class="discount_txt">
+                        <h3>【嘉義雞肉飯】限時優惠</h3>
+                        <p>2022/01/01-01/05<br>
+                            雞肉飯、滷肉飯買大送小</p>
+                    </div>
+                </a>
+                <a href="JIABS_business-page.html" class="discount_item">
+                    <img src="pic/discount/discount4_ashang.jpg" alt="和園麵食">
+                    <div class="discount_txt">
+                        <h3>【阿山炒麵】全品項九折</h3>
+                        <p>2022/01/01-2023/01/01<br>
+                            不限金額全品項九折</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <footer>
+            <div class="link">
+                    <a href=""> <img src="pic/share/link1_facebook_icon.png" alt="facebook"> </a>
+                    <a href=""> <img src="pic/share/link2_line_icon.png" alt="line"> </a>
+                    <a href=""> <img src="pic/share/link3_instagran_icon.png" alt="instagram"> </a>
+            </div>
+        
+            <div class="copyright">
+                <p>此網頁僅供TibaMe專題教學使用</p>
+                <p>&copy;All Rights Reserved</p>
+            </div>
+        <footer>
+</body>
+</html>
