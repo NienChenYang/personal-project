@@ -115,7 +115,7 @@ nav .sp_login img{
     z-index: 99;
     top: 50px;
     padding-left: 10px;
-
+    
 }
 
 .path ul{
@@ -127,11 +127,12 @@ nav .sp_login img{
 
 .path ul li a {
     /* color:#4281ce; */
+    text-decoration: none;
 }
 
 .path a{
     text-decoration: none;
-    /* color: #134e6c;  */
+    color: #134e6c; 
     font-weight: bold;
     padding: 9px;
    
