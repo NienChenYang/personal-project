@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="link/owl.carousel.min.css">
     <link rel="stylesheet" href="link/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/grid.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="link/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="link/owl.carousel.js"></script>
     <script src="js/JIABA.js"></script>
     <title>JIABA</title>
@@ -195,39 +197,52 @@
 
         <div class="discount">
             <h2>最新活動</h2>
+            <script>
+                AOS.init();
+              </script>
             <div class="discount_wrap">
-                <a href="JIABS_business-page.html" class="discount_item">
-                    <img src="pic/homepage/discount1_he_qing beef_noodles.jpg" alt="和慶牛肉麵">
-                    <div class="discount_txt">
-                    <h3>【和慶牛肉麵】<br>試營運6折活動</h3>
-                    <p>2022/03/01-03/08<br>
-                        消費不限金額全面六折</p>
+                    <div data-aos="fade-right" data-aos-anchor-placement="top-center" >
+                        <a href="JIABS_business-page.html" class="discount_item discount_odd" >
+                            <img src="pic/homepage/discount1_he_qing beef_noodles.jpg" alt="和慶牛肉麵">
+                            <div class="discount_txt">
+                            <h3>【和慶牛肉麵】<br>試營運6折活動</h3>
+                            <p>2022/03/01-03/08<br>
+                                消費不限金額全面六折</p>
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a href="JIABS_business-page.html" class="discount_item">
-                    <img src="pic/homepage/discount2_guan_lin chicken_rice.png" alt="冠霖雞肉飯">
-                    <div class="discount_txt">
-                        <h3>【冠霖雞肉飯】<br>周年慶買大送小</h3>
-                        <p>2022/03/01-03/08<br>
-                            凡購買大碗招牌雞肉飯送小碗雞肉飯</p>
-                    </div>  
-                </a>
-                <a href="JIABS_business-page.html" class="discount_item">
-                    <img src="pic/homepage/discount3_hoshino nihon_bentou.jfif" alt="星野日式便當">
-                    <div class="discount_txt">
-                        <h3>【星野日式便當】<br>壽星限定</h3>
-                        <p>2022/01/01-2022/12/31<br>
-                            壽星出示證件買便當送小菜、飲料一份</p>
-                    </div>
-                </a>
-                <a href="JIABS_business-page.html" class="discount_item">
-                    <img src="pic/homepage/discount4_he_yuan noodles.jpg" alt="和園麵食">
-                    <div class="discount_txt">
-                        <h3>【和園麵食】<br>挺醫護</h3>
-                        <p>2022/01/01-2023/01/01<br>
-                            醫護人員著制服或出示證件送小菜一份</p>
-                    </div>
-                </a>
+                 
+                    <div data-aos="fade-left" data-aos-anchor-placement="top-center" >
+                        <a href="JIABS_business-page.html" class="discount_item discount_even">
+                            <img src="pic/homepage/discount2_guan_lin chicken_rice.png" alt="冠霖雞肉飯">
+                            <div class="discount_txt">
+                                <h3>【冠霖雞肉飯】<br>周年慶買大送小</h3>
+                                <p>2022/03/01-03/08<br>
+                                    凡購買大碗招牌雞肉飯送小碗雞肉飯</p>
+                            </div>  
+                        </a>
+                </div>
+                <div data-aos="fade-right" data-aos-anchor-placement="top-center" >
+                    <a href="JIABS_business-page.html" class=" discount_item discount_odd">
+                        <img src="pic/homepage/discount3_hoshino nihon_bentou.jfif" alt="星野日式便當">
+                        <div class="discount_txt">
+                            <h3>【星野日式便當】<br>壽星限定</h3>
+                            <p>2022/01/01-2022/12/31<br>
+                                壽星出示證件買便當送小菜、飲料一份</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div data-aos="fade-left" data-aos-anchor-placement="top-center" >
+                    <a href="JIABS_business-page.html" class="discount_item discount_even">
+                        <img src="pic/homepage/discount4_he_yuan noodles.jpg" alt="和園麵食">
+                        <div class="discount_txt">
+                            <h3>【和園麵食】<br>挺醫護</h3>
+                            <p>2022/01/01-2023/01/01<br>
+                                醫護人員著制服或出示證件送小菜一份</p>
+                        </div>
+                    </a>
+                </div>
                 <a class="more" href="JIABA_discount.html">more...</a>
              </div>
         </div>
