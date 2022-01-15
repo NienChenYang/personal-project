@@ -1,27 +1,20 @@
 
 .tag_bg .list{
     color: #ff8563;
+
 }
 
 a.tag_bg{
     color: #ff8563;
+
 }
 
-
 .tag_bg .list:after{
-    /* content: '';
-    border-right: 5px  solid transparent;
-    border-left: 5px solid transparent ; */
     border-top: 5px solid #ff8563;
-    /* position: absolute;
-    top: 15px;
-    left: 70px; */
     
 }
 
-/* #sub_menu a{
-    color: #134e6c;
-} */
+
 
 h2{
     color: #1b1464;
@@ -30,8 +23,9 @@ h2{
     text-align: center;
     border-bottom: 1px solid #1b1464;
 
-        
 }
+
+
 
 .new_active{
     max-width: 1200px;
@@ -40,13 +34,22 @@ h2{
     background-color: rgb(250, 250, 241);
     padding-top:80px;
     
-    
 }
 
 .new_active .advertise{
     width: 90%;
     margin:auto;
     position: relative;
+
+}
+
+.new_active .advertise h3{
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    color: #fff;
+
 }
 
 .sp_new_active_pic{
@@ -61,20 +64,12 @@ h2{
 
 }
 
-.new_active .advertise h3{
-    font-size: 20px;
-    position: absolute;
-    top: 10px;
-    left: 10%;
-    color: #fff;
-
-}
-
 .new_active .shop{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+
 }
 
 .new_active .shop_item{
@@ -108,7 +103,6 @@ h2{
     flex-direction: column;
     justify-content: center;
     
-    
 }
 
 .new_active .target{
@@ -124,8 +118,7 @@ h2{
     margin: auto;
     background-color: rgb(250, 250, 241); 
     padding: 100px 0;
-    /* display: flex;
-    flex-wrap: wrap; */
+    
 }
 
 .discount h2{
@@ -149,10 +142,6 @@ h2{
     margin-bottom: 20px;
     box-shadow: 1px 2px 3px #aaa;
 
-}
-
-.discount_item:nth-child(odd){
-    /* margin-left: 150px; */
 }
 
 .discount_item img{
@@ -193,277 +182,146 @@ h2{
 }
 
 @media screen and (min-width:768px){
+.new_active .advertise{
+    width: 300px;
+    
+}
 
-    .shop{
-        display: flex;
-        justify-content: center;
-    }
-
-    .new_active .shop_item{  
-        position: relative;
-        /* margin-left: 20px; */
-        /* height: 180px; */
-        width: 20%;
-        margin: 30px;
-        /* margin-top: 20px; */
-        
-    }
-
-    .new_active .advertise{
-        width: 300px;
-        margin:auto;
-        position: relative;
-    }
-    
-    .sp_new_active_pic{
-        margin: auto;
-        display:block;
-    
-    }
-
-     .discount{
-        background-color: rgb(250, 250, 241); 
-        padding: 100px 0;
-        display: flex;
-        flex-wrap: wrap;
-        /* justify-content: center;
-        margin: auto; */
-       
-    
-    }
-    
-    .discount h2{
-        display: inline-block;
-        margin-bottom: 30px;
-        
-    }
-    
-    .discount h3{
-        color: #134e6c;
-    
-    }
-
-    .discount a{
-        width: 45%;
-        /* display: flex; */
-        /* justify-content:space-around; */
-       
-       
-
-        
-    }
-
-    .discount a:nth-child(odd){
-       margin-left: 0px;
-    }
-    
-    .discount_item{
-        width: 100%;
-        /* display: flex; */
-        background-color:rgba(248, 170, 149, 0.15);
-        margin-bottom: 20px;
-        border-radius: 3px;
-        /* margin-left: 20px; */
-        box-shadow: 1px 2px 3px #aaa;
-    
-    }
-    
-    .discount_item:nth-child(even){
-        /* margin-left: 0px; */
-        margin-right: 0px;
-    }
-    
-    .discount_item img{
-        width: 170px;
-        
-    }
-    
-    .discount_item .discount_txt{
-        width: 400px;
-        padding: 5px 0 5px 0;
-        text-align: center;
-    
-    }
-    
-    .discount_item h3{
-        /* margin: 20px; */
-        line-height: 20px;
-    
-    }
-    
-    .discount_item p{
-        height: 50px;
-        /* margin: 10px; */
-        line-height: 20px;
-        color: #696565;
-        border-right: 2px solid #ab917f;
-        padding-right: 5px;
-        font-size: 14px;
-       
-    }
-    
-    .discount a{
-        text-decoration: none;
-        margin: auto;
-        /* background-color: #134e6c; */
-        
-    }
-
-    .discount a:nth-child(odd){
-        margin-left: 3%;
-    }
+.new_active .shop{
+    display: flex;
+    justify-content: center;
 
 }
 
+.new_active .shop_item{  
+    position: relative;
+    width: 20%;
+    margin: 30px;
+    
+}
+    
+
+
+.discount{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.discount_item{
+    width: 100%;
+  
+}
+
+.discount_item img{
+    width: 55%;;
+    
+}
+
+.discount_item .discount_txt{
+    width: 45%;
+    min-height: 135px;
+    padding: 5px 0 5px 0;
+    margin: auto;
+
+}
+
+.discount a{
+    margin: auto;
+    width: 45%;
+    
+}
+
+.discount a:nth-child(odd){
+    margin-left: 3%;
+    
+}
+}
+
 @media screen and (min-width:1200px){
-    h2{
-        border: 1px solid transparent;
-    
-            
-    }
-    
-    h2:hover{
-        border-bottom: 1px solid #1b1464;
-        
-    }
-    
-    .new_active_item{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-left: 150px;
-        margin-right: 150px;
-    }
+h2{
+    border: 1px solid transparent;
 
-    .sp_new_active_pic{
-        display: none;
-    }
-    
-    .new_active_pic{
-        display: block;
-    
-        
-    }
-    
-    .new_active .advertise h3{
-        font-size: 30px;
-        top: 70px;
-        left: 90px;
-    
-    }
-    
-    .new_active .shop{
-        width: 600px;
-        margin-left:0px ;
-    
-       
-       
-    }
-    
-    .new_active .shop_item{
-        margin: 20px 0 0 20px;
-        width: 180px;
- 
-    }
-    
-    .new_active .shop_item:nth-child(-n+3){
-        margin-top: 0;
-    }
-    
-    .new_active .shop_item .shop_txt{
-        padding: 40px 30px 0 30px;
-        display: none;
-        opacity: 0;
-        transition: 1s;
-      
-    }
-    
-    .new_active .shop_item:hover .shop_txt{
-        display:  block;
-        opacity: 1;
-    }
+}
 
-    .discount{
-        /* width: 1200px;
-        margin: auto;
-        background-color: rgb(250, 250, 241);  */
-        /* padding: 100px 0; */
-        /* display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly; */
-        
-        
-    }
+h2:hover{
+    border-bottom: 1px solid #1b1464;
     
-    .discount h2{
-        display: inline-block;
-        margin-bottom: 30px;
-        
-    }
-    
-    .discount h3{
-        color: #134e6c;
-    
-    }
-    
-    .discount_item{
-        width: 100%;
-        display: flex;
-        background-color:rgba(248, 170, 149, 0.15);
-        border-radius: 3px;
-        margin-bottom: 20px;
-        box-shadow: 1px 2px 3px #aaa;
-    
-        
-    
-    }
-    
-    .discount a:hover{
-        transform: scale(1.02,1.02);
-    
-    }
-    
-    
-    .discount a:nth-child(odd){
-        /* margin-right: 20px; */
-    }
-    
-    .discount_item img{
-        width: 250px;
-        
-    }
-    
-    .discount_item .discount_txt{
-        width: 350px;
-        padding: 10px 0 5px 0;
-        text-align: center;
-    
-    }
-    
-    .discount_item h3{
-        /* margin: 20px; */
-        line-height: 30px;
-    
-    }
-    
-    .discount_item p{
-        height: 90px;
-        /* margin: 10px; */
-        line-height: 30px;
-        color: #696565;
-        border-right: 2px solid #ab917f;
-        /* padding-right: 5px; */
-       
-    }
-    
-    .discount a{
-        text-decoration: none;
-        margin: auto;
-        /* background-color: #134e6c; */
-        
-    }
+}
 
-    .discount a:nth-child(odd){
-        margin-left: 30px;
-    }
+.new_active_item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.new_active .advertise h3{
+    font-size: 30px;
+    top: 70px;
+    left: 90px;
+
+}
+
+.sp_new_active_pic{
+    display: none;
+
+}
+
+.new_active_pic{
+    display: block;
+
+}
+
+.new_active .shop{
+    width: 600px;
+    margin-left:0px ;
+
+}
+
+.new_active .shop_item{
+    margin: 20px 0 0 20px;
+    width: 180px;
+
+}
+
+.new_active .shop_item:nth-child(-n+3){
+    margin-top: 0;
+
+}
+
+.new_active .shop_item .shop_txt{
+    padding: 40px 30px 0 30px;
+    display: none;
+    opacity: 0;
+    transition: 1s;
+  
+}
+
+.new_active .shop_item:hover .shop_txt{
+    display:  block;
+    opacity: 1;
+}
+
+.discount a:hover{
+    transform: scale(1.02,1.02);
+
+}
+
+.discount_item .discount_txt{
+    padding: 10px 0 5px 0;
+
+}
+
+.discount_item p{
+    height: 90px;
+    line-height: 30px;
+   
+}
+.discount a:nth-child(odd){
+    margin-left: 30px;
+
+}
 }
