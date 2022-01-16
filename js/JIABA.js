@@ -82,7 +82,7 @@ $(document).ready(function(){
                 this.blur();
     
                 if(spinning == false){
-                    $('#slot-machine .arm').animate({ top: '100px', height: '2%' });
+                    $('#slot-machine .arm').animate({ top: '90px', height: '2%' });
                     $('#slot-machine .arm .knob').animate({ top: '-20px', height: '30px' });
                     $('#slot-machine .arm-shadow').animate({ top: '40px' }, 380);
                     $('#slot-machine .ring1 .shadow, #slot-machine .ring2 .shadow').animate({ top: '50%', opacity: 1 });
@@ -97,7 +97,7 @@ $(document).ready(function(){
                     $('#wheel1 img:first').css('top', - (spin[0] * 44 + 16) + 'px');
     
                     setTimeout(function(){
-                        $('#slot-machine .arm').animate({ top: '-40px', height: '50%', overflow: 'visible' });
+                        $('#slot-machine .arm').animate({ top: '-20%', height: '45%', overflow: 'visible' });
                         $('#slot-machine .arm .knob').animate({ top: '-15px', height: '30px' });
                         $('#slot-machine .arm-shadow').animate({ top: '13px' });
                         $('#slot-machine .ring1 .shadow, #slot-machine .ring2 .shadow').animate({ top: '0', opacity: 0 });
