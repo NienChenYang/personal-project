@@ -51,6 +51,22 @@
 
 }
 
+.slot_machine h3{
+    width: 400px ;
+    margin: auto;
+    color: #1b1464;
+    text-align: end;
+    font-size: 22px;
+    animation: blink .8s infinite;
+    
+}
+
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    60% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
 #slot_machine_block{
     max-width: 1200px;
     width: 100%;
@@ -73,7 +89,7 @@
     border: 2px solid #ff8563;
     box-sizing: border-box;
     height: 100%;
-    margin: 50px auto;
+    margin: 30px auto 50px auto;
     position: relative;
     width: 100%;
     z-index: 2;
@@ -656,6 +672,11 @@
 
 
 
+.slot_machine h3{
+    width: 730px ;
+    
+}
+
 #slot-machine {
     height: 300px;
     width: 600px;
@@ -908,12 +929,20 @@
 
 
 
+.slot_machine h3{
+    width: 730px ;
+    margin: auto;
+    margin-bottom: 50px;
+    color: #1b1464;
+    text-align: end;
+    
+}
+
 .slot_machine h2{
     margin-top: 60px;
     margin-bottom: 0;
     
 }
-
 
 #slot_machine_block{
     background-repeat: no-repeat;
