@@ -617,7 +617,7 @@
 
 .member li{
     line-height: 40px;
-    font-size: 12px;
+    font-size: 14px;
     color: #3d3c3c ;
     font-weight: bold;
     
@@ -849,8 +849,13 @@
 
 }
 
+.member li{
+    font-size: 16px;
+}
+
 .member .welfare{
-    width: 40%;
+    padding-left: 20px;
+    width: 50%;
     background-image: none;
 
 }
@@ -1047,6 +1052,12 @@
 .new_shop .more:hover{
     transform: scale(1.03,1.03) ;
     font-weight: bold;
+
+}
+
+.member .welfare{
+    padding-left: 0px;
+    
 
 }
 

@@ -47,9 +47,10 @@ nav{
 }
 
 nav .logo{
-    width: 60px;
+    width: 90px;
     padding-top: 9.25%;
     padding-bottom: 9.25%;
+    margin-left: 20%;
 
 }
 
@@ -60,7 +61,8 @@ nav .search{
 
 
 nav .sp_search img{
-    width: 18px;
+    width:28px;
+    margin-top: 2px;
     
 }
 
@@ -76,19 +78,19 @@ nav .sp_icon{
 }
 
 nav .sp_login{
-    margin-left: 10px;
+    margin-left: 15px;
 
 }
 
 nav .sp_login img{
-    width:20px;
+    width:30px;
    
 }
 
 
 
 #hamburger_btn{
-    width: 5%;
+    width: 10%;
     border: none;
     background-color:#1b1464;
     margin-left: 2%;
@@ -96,13 +98,13 @@ nav .sp_login img{
 }
 
 #hamburger_btn img{
-    width: 20px;
+    width: 35px;
     
 }
 
 .hidden {
 	position: fixed;
-	left:-35%;
+	left:-100%;
     
 }
 
@@ -110,13 +112,13 @@ nav .sp_login img{
 
 .path{
     position: fixed;
-    width: 100px;
-    line-height: 30px;
+    width: 200px;
+    line-height: 50px;
     background-color: rgb(255, 255, 255);
-    font-size: 12px;
+    font-size: 18px;
     margin-left: 2%;
     z-index: 99;
-    top: 50px;
+    top: 72px;
     padding-left: 10px;
     
 }
@@ -146,14 +148,17 @@ nav .sp_login img{
 
 }
 
+.path .list{
+    margin-left: 5%;
+}
 .path .list:after{
     content: '';
     border-right: 5px  solid transparent;
     border-left: 5px solid transparent ;
     border-top: 5px solid #134e6c;
     position: absolute;
-    top: 12px;
-    left: 50px;
+    top: 22px;
+    left: 90px;
     
 }
 
@@ -407,6 +412,10 @@ nav .sp_icon{
 .path li a:hover {
    color: #ff8563;
 
+}
+
+.path .list{
+    margin-left: 0;
 }
 
 .path .list:after{
