@@ -59,9 +59,9 @@ $(document).ready(function(){
 
     // //slot machine
 
-(function($){
+    (function($){
 
-    var slotMachine = function(){
+        var slotMachine = function(){
         var spinning = 1,
             spin = [0],
     
@@ -115,25 +115,25 @@ $(document).ready(function(){
             stopSpin = function(slot){
     
                 $('#wheel' + slot)
-                    .find('img:last')
-                    .hide()
-                    .end()
-                    .find('img:first')
-                    .animate({
-                        top: - spin[slot - 1] * 250
-                    },{
-                        duration: 500,
-                        easing: 'elasticOut',
-                        complete: function() {
-    
-                            spinning --;
-    
-                            if(spinning <= 0){
-                                endSpin();
-                            }
-    
+                .find('img:last')
+                .hide()
+                .end()
+                .find('img:first')
+                .animate({
+                    top: - spin[slot - 1] * 250
+                },{
+                    duration: 500,
+                    easing: 'elasticOut',
+                    complete: function() {
+
+                        spinning --;
+
+                        if(spinning <= 0){
+                            endSpin();
                         }
-                    });
+
+                    }
+                });
             },
             endSpin = function(){};
         return {
